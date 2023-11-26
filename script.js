@@ -3,7 +3,7 @@ function stringChop(str, size) {
 while(i<=str.length-1){
   arr.push(str.slice(i,i+size);
   i=i+size;
-}       
+}        
 
 return arr;
 	 
