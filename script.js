@@ -1,12 +1,14 @@
 function stringChop(str, size) {
  let i=0,arr=[];
-while(i<=str.length){
-  arr.push(str.slice(i,i+size));
+while(i<=str.length-1){
+  arr.push(str.slice(i,i+size);
   i=i+size;
-}
-console.log(arr);
-	
-}
+}       
+
+return arr;
+	 
+	  
+} 
 
 // Do not change the code below
 const str = prompt("Enter String.");
